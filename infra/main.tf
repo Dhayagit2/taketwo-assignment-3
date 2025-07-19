@@ -35,7 +35,7 @@ resource "aws_iam_role_policy_attachment" "lambda_logs" {
 # Lambda Function
 resource "aws_lambda_function" "example" {
   function_name = "example-lambda"
-  runtime       = "nodejs14.x"
+  runtime       = "nodejs22.x"
   handler       = "index.handler"
   role          = aws_iam_role.lambda_exec.arn
 
