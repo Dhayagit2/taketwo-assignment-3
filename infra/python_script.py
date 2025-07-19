@@ -23,4 +23,4 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         logger.error("Usage: python python_script.py <file_path>")
         sys.exit(1)
-    upload_to_s3("example-bucket-taketwo", sys.argv[1])
+    upload_to_s3("example-bucket-take-two", sys.argv[1])
